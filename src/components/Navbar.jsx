@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useCurrency } from "../context/CurrencyContext";
 import { useEffect, useState } from "react";
 import { Sun, Moon } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const { i18n } = useTranslation();
@@ -60,6 +61,19 @@ export default function Navbar() {
         >
           {theme === 'dark' ? <Sun className="w-4 h-4 text-yellow-400" /> : <Moon className="w-4 h-4 text-gray-700" />}
         </button>
+
+        <Link
+          to="/login"
+          className="ml-2 px-3 py-2 text-sm rounded border border-yellow-500 text-yellow-600 hover:bg-yellow-50 dark:border-yellow-600 dark:text-yellow-400"
+        >
+          Login
+        </Link>
+        <Link
+          to="/register"
+          className="px-3 py-2 text-sm rounded bg-yellow-500 text-white hover:bg-yellow-600"
+        >
+          Register
+        </Link>
       </div>
     </nav>
   );
