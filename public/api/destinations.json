@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Bali, Indonesia", "image": "/images/bali.jpg", "priceUSD": 849 },
+  { "id": 2, "name": "Santorini, Greece", "image": "/images/santorini.jpg", "priceUSD": 999 },
+  { "id": 3, "name": "Cappadocia, Turkey", "image": "/images/cappadocia.jpg", "priceUSD": 749 }
+]
