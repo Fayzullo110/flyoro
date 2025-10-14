@@ -1,0 +1,366 @@
+﻿02/24/2025 08:08:26 Central European Standard Time : Information : Local timezone is (UTC+01:00) Central European Time (Oslo)
+02/24/2025 08:08:26 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":93612}]}
+02/24/2025 08:08:26 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 455
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://93619AEB4A","ControllerConfig":{"Executable":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/vs-green-server/platforms/darwin-arm64/node_modules/@microsoft/servicehub-controller-net60.darwin-arm64/Microsoft.ServiceHub.Controller","Args":["3c2e210934"],"PipeName":"3c2e210934"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+02/24/2025 08:08:26 Central European Standard Time : Information : Connected to Hub Controller's client watch 'net.pipe://93619AEB4A
+02/24/2025 08:08:26 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":93612}]}
+02/24/2025 08:08:26 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 455
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://93619AEB4A","ControllerConfig":{"Executable":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/vs-green-server/platforms/darwin-arm64/node_modules/@microsoft/servicehub-controller-net60.darwin-arm64/Microsoft.ServiceHub.Controller","Args":["3c2e210934"],"PipeName":"3c2e210934"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+02/24/2025 08:08:26 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 16970
+
+
+02/24/2025 08:08:26 Central European Standard Time : Information : VsHubClient-hubController write: {"jsonrpc":"2.0","id":3,"method":"RegisterServicesAsync","params":[{"Microsoft.VisualStudio.CpsProjectIconSourceService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectIconSourceServiceFactory"}},"Microsoft.VisualStudio.LaunchConfigurationService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},"Microsoft.VisualStudio.ProjectSystem.CompositionService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory"}},"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectInitializationStatusServiceFactory"}},"Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectTreeProviderFactory"}},"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/CPS/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-arm64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory"}},"Microsoft.VisualStudio.Debugger.AspireSessionSynchronizeService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.AspireSessionSynchronizeService+Factory"}},"Microsoft.VisualStudio.Debugger.GenericHotReloadAgentManagerService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.GenericHotReloadAgentManagerService+Factory"}},"Microsoft.VisualStudio.Debugger.HotReloadClientService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.HotReloadClientService+Factory"}},"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory"}},"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},"Microsoft.VisualStudio.Debugger.ManagedHotReloadAgentManagerService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedHotReloadAgentManagerService+Factory"}},"Microsoft.VisualStudio.Debugger.ManagedHotReloadService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedHotReloadService+Factory"}},"Microsoft.VisualStudio.Debugger.SourceLinkService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.SourceLinkService+Factory"}},"Microsoft.VisualStudio.Debugger.SymbolLocatorService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSDebugCore/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-arm64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.BrokeredServices.SymbolLocator.SymbolLocatorService+Factory"}},"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSUnitTesting/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSUnitTesting/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-arm64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory"}},"Microsoft.VisualStudio.TestWindow.VSCode.Service":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSUnitTesting/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/VSUnitTesting/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-arm64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory"}},"Microsoft.VisualStudio.AspireServer":{"host":"dotnet.aspireServer","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services/Microsoft.WebTools.AspireServer.dll","fullClassName":"Microsoft.WebTools.AspireServer.ServiceFactory"}},"Microsoft.VisualStudio.Debugger.AspireService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services/Microsoft.WebTools.Aspire.VSCode.Services.dll","fullClassName":"Microsoft.WebTools.Aspire.VSCode.Services.ServiceFactory"},"friendServices":["Microsoft.VisualStudio.ProjectSystem.CompositionService"]},"Microsoft.VisualStudio.ProjectSystem.DebugTargetFrameworkService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/dotnet-project-system-vscode/node_modules/@microsoft/vscode.projectsystem.managed/Services","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/dotnet-project-system-vscode/node_modules/@microsoft/vscode.projectsystem.managed/Services/Microsoft.ProjectSystem.Managed.VSCode.Services.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Services.DebugTargetFrameworkServiceFactory"},"friendServices":["Microsoft.VisualStudio.ProjectSystem.CompositionService"]},"Microsoft.VisualStudio.ProjectQueryTestService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/vs-green-server/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/vs-green-server/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-arm64/Microsoft.VisualStudio.Samples.SayHello.dll","fullClassName":"Microsoft.VisualStudio.Samples.SayHello.ProjectQueryTestServiceFactory"}},"helloServiceHubDotNetHost":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/vs-green-server/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-arm64","entryPoint":{"assemblyPath":"/Users/fayzullotukhtasinov/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-arm64/components/vs-green-server/platforms/darwin-arm64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-arm64/Microsoft.VisualStudio.Samples.SayHello.dll","fullClassName":"Microsoft.VisualStudio.Samples.SayHello.HelloWorldFactory"}}}]}
+02/24/2025 08:08:26 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+02/24/2025 08:08:26 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 345
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/77c01d0c1f"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+02/24/2025 08:08:26 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 360
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.TestWindow.VSCode.Service","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/23ccd7006b"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+02/24/2025 08:08:26 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 368
+
+{"jsonrpc":"2.0","id":5,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/1987401118"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+02/24/2025 08:08:26 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 383
+
+{"jsonrpc":"2.0","id":6,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/2e1c1aeceb"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 379
+
+{"jsonrpc":"2.0","id":7,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/5d42988ace"},"ClientCredentials":{},"ClientCulture":"en-DE","ClientUICulture":"en-US"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 176
+
+{"jsonrpc":"2.0","id":3,"result":{"RequestId":"9d9bb48d-599b-4ceb-a47c-01d76ba67da4","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/bfa1510114","IsEmpty":false}}Content-Length: 176
+
+{"jsonrpc":"2.0","id":7,"result":{"RequestId":"ebd71bab-9ab5-4e87-838e-c89412414f8c","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/947fae0050","IsEmpty":false}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/23ccd7006b'.
+02/24/2025 08:08:27 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/5d42988ace'.
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.13"}}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.13"}}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:08:27 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 176
+
+{"jsonrpc":"2.0","id":4,"result":{"RequestId":"dddd9795-39b6-4c41-bfe9-8f8866a1931d","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/665375bb70","IsEmpty":false}}
+02/24/2025 08:08:27 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 176
+
+{"jsonrpc":"2.0","id":5,"result":{"RequestId":"985fba35-a89b-4ff7-9944-e94f75ff606d","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/795042cabc","IsEmpty":false}}
+02/24/2025 08:08:27 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 176
+
+{"jsonrpc":"2.0","id":6,"result":{"RequestId":"00073f10-5c84-4314-a547-7f26d3acebb5","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/9468843968","IsEmpty":false}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-DE","clientUICulture":"en-US"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"9fb48553-4fb2-4e40-b3c0-cf9b08aa97ce","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/dc0d9dde0e6d4b19863266e7059d6bee"}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"30441b1f-a99a-470f-9697-9014741c0336","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/17f2324f742249ec9126b297296fa2b1"}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/2e1c1aeceb'.
+02/24/2025 08:08:27 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/1987401118'.
+02/24/2025 08:08:27 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/77c01d0c1f'.
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"9.0.1"}}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"9.0.1"}}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"9.0.1"}}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:08:27 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 382
+
+{"jsonrpc":"2.0","id":8,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/c4fe383235"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 176
+
+{"jsonrpc":"2.0","id":8,"result":{"RequestId":"32fe51cc-4a38-4eeb-92d1-a49a1d9903c2","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/84d4c662c0","IsEmpty":false}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/c4fe383235'.
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.13"}}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"8950defb-7288-4973-b9de-7596f44a00af","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/26d5c6d4a92e439e9f9d3243eb59b091"}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"81851891-6828-4a5b-8aba-b4617f579781","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/8e87de7e217a4b53b062d4667573eebd"}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"895a73ed-dcbd-45aa-a73b-415a839df2f4","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/ba37d54c268847f7a362a196ecaecb0c"}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"68eaa68d-da40-4189-9ba1-59f4709f91d4","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/8e9ac09382654abfbb36fdba0829291a"}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider-RemoteServiceBrokerServer read: Content-Length: 203
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 367
+
+{"jsonrpc":"2.0","id":9,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/e46a568f9e"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer read: Content-Length: 293
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","version":"0.3"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}],"traceparent":"00-c1aa21a44ab61e4da7da9a442503f9c4-c9806fcd69e4c34a-00"}
+02/24/2025 08:08:27 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 176
+
+{"jsonrpc":"2.0","id":9,"result":{"RequestId":"48f024e0-5064-43f6-9dba-5f2e483b0712","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/7c5c48cfe0","IsEmpty":false}}
+02/24/2025 08:08:27 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 386
+
+{"jsonrpc":"2.0","id":10,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","Version":"0.3"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/712a65f487"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider-RemoteServiceBrokerServer write: Content-Length: 160
+
+{"jsonrpc":"2.0","id":4,"result":{"requestId":"48f024e0-5064-43f6-9dba-5f2e483b0712","pipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/7c5c48cfe0"}}
+02/24/2025 08:08:27 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":10,"result":{"RequestId":"a18c7c15-04af-4f82-9912-9e72262f20b9","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/8d50dee499","IsEmpty":false}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service-RemoteServiceBrokerServer write: Content-Length: 160
+
+{"jsonrpc":"2.0","id":4,"result":{"requestId":"a18c7c15-04af-4f82-9912-9e72262f20b9","pipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/8d50dee499"}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"9.0.1"}}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"9.0.1"}}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/e46a568f9e'.
+02/24/2025 08:08:27 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/712a65f487'.
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"24eea11f-68be-4173-b87f-d4eac886f428","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/98777e49bd5f4b0d955e16e38460c694"}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"d451eb3a-1b28-4dd3-b781-921ac8c631d6","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/1937010ad82a4e2b9cb7f09cd21da163"}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 197
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.NoDelay.EnvironmentService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":5,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.ComponentExportsService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":4,"result":{"requestId":"12a1b734-a5d1-4a89-9b3f-9aa31e52ec07","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/766f9cc6415b44b08ceff261c3d75b8e"}}
+02/24/2025 08:08:27 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":5,"result":{"requestId":"4833d71f-e2e7-45b2-9733-edda01032235","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/e3e673a294d443b9890ab5d766c9e8f9"}}
+02/24/2025 08:08:28 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 242
+
+{"jsonrpc":"2.0","id":6,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.NuGetSolutionRestoreService","version":"0.1"},{"activationArguments":{"needEvents":"True"},"clientCulture":"en-GB","clientUICulture":"en-GB"}]}Content-Length: 204
+
+{"jsonrpc":"2.0","id":7,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.ActiveDocumentsInformationService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:28 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":6,"result":{"requestId":"97441176-4a08-4959-9afc-3ce19901f7b6","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/7527e179e3ac456689e419fb1cc10038"}}Content-Length: 181
+
+{"jsonrpc":"2.0","id":7,"result":{"requestId":"a1c6b3db-a83b-446c-8a15-80b5645a59c5","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/246960f8e7b64503b19675f0f18134ea"}}
+02/24/2025 08:08:28 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 270
+
+{"jsonrpc":"2.0","id":8,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.CpsProjectIconSourceService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}],"traceparent":"00-e78fe32240e14c4ea1afb14a6c68a61a-cea4aa4530fd164f-00"}
+02/24/2025 08:08:28 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 363
+
+{"jsonrpc":"2.0","id":11,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.CpsProjectIconSourceService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/c8a5206680"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+02/24/2025 08:08:28 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":11,"result":{"RequestId":"0f52fd68-a625-446a-9ae0-5a3d9cd785dc","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/acab4669fd","IsEmpty":false}}
+02/24/2025 08:08:28 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 160
+
+{"jsonrpc":"2.0","id":8,"result":{"requestId":"0f52fd68-a625-446a-9ae0-5a3d9cd785dc","pipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/acab4669fd"}}
+02/24/2025 08:08:28 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/c8a5206680'.
+02/24/2025 08:08:28 Central European Standard Time : Information : Microsoft.VisualStudio.CpsProjectIconSourceService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"9.0.1"}}]}
+02/24/2025 08:08:28 Central European Standard Time : Information : Microsoft.VisualStudio.CpsProjectIconSourceService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:08:28 Central European Standard Time : Information : Microsoft.VisualStudio.CpsProjectIconSourceService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:28 Central European Standard Time : Information : Microsoft.VisualStudio.CpsProjectIconSourceService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"74a2b4e5-e00d-4e08-a5c6-0a521432f539","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/763add99b05e4c6d92eb457322870859"}}
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 197
+
+{"jsonrpc":"2.0","id":9,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.NoDelay.EnvironmentService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":9,"result":{"requestId":"3890cca8-a1d8-4e54-95ca-0b96d2d7081d","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/f627f853e5904b3284dbceb763510bc8"}}
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 203
+
+{"jsonrpc":"2.0","id":10,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.LanguageServices.WorkspaceProjectFactoryService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:29 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 384
+
+{"jsonrpc":"2.0","id":12,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/016f94ec59"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+02/24/2025 08:08:29 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":12,"result":{"RequestId":"3ec78e3d-784c-44e3-a6a1-47f40d41f41b","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/cef2ecd689","IsEmpty":false}}
+02/24/2025 08:08:29 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/016f94ec59'.
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"9.0.1"}}]}
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 185
+
+{"jsonrpc":"2.0","id":11,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.OptionService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 182
+
+{"jsonrpc":"2.0","id":11,"result":{"requestId":"6f208355-086d-4a66-9c27-797ad9db634d","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/3e7cd1f8bf0c47c4b598859051477847"}}
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"c0d09b6d-2c4d-4e97-b5dc-e4e78c72d93c","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/c424aace08ad45c39f1a48563f61c9f5"}}
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 182
+
+{"jsonrpc":"2.0","id":10,"result":{"requestId":"6d33adaa-6cd9-43de-8029-2e00a366df55","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/77f1f9f4b8c745749bea17fc1944375b"}}
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 199
+
+{"jsonrpc":"2.0","id":12,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.NuGetSolutionRestoreService","version":"0.1"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:29 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 182
+
+{"jsonrpc":"2.0","id":12,"result":{"requestId":"2a1c6bab-e5a7-42e2-8b62-3c316c130785","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/fc83afe13616493092adc54673a00226"}}
+02/24/2025 08:08:30 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer read: Content-Length: 250
+
+{"jsonrpc":"2.0","id":13,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.LogOutputChannelService","version":"0.1"},{"activationArguments":{"outputChannelName":"Projects"},"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:30 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.CompositionService-RemoteServiceBrokerServer write: Content-Length: 182
+
+{"jsonrpc":"2.0","id":13,"result":{"requestId":"728c7c19-575f-476a-b8c3-20c5ca727186","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/4ec3b4f4e2ab4d7b9cdfc7f2311b84c5"}}
+02/24/2025 08:08:30 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 386
+
+{"jsonrpc":"2.0","id":13,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","Version":"0.3"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/fd4ea1af52"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+02/24/2025 08:08:30 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":13,"result":{"RequestId":"e43e3a7a-0233-40ed-adec-d60f8de9c3b3","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/b929f9ac89","IsEmpty":false}}
+02/24/2025 08:08:30 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/fd4ea1af52'.
+02/24/2025 08:08:30 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"9.0.1"}}]}
+02/24/2025 08:08:30 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:08:30 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:08:30 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"74532f1c-e768-4b47-98c6-7cf608c3bb47","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/1f5d889d034145f1942b2dd784ae7f1e"}}
+02/24/2025 08:10:23 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 346
+
+{"jsonrpc":"2.0","id":14,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/675c2db4a6"},"ClientCredentials":{},"ClientCulture":"en-GB","ClientUICulture":"en-GB"}]}
+02/24/2025 08:10:23 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":14,"result":{"RequestId":"a7ebfdea-cc30-404d-b0c4-93f9bed2d7a6","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/4da9889c46","IsEmpty":false}}
+02/24/2025 08:10:23 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/675c2db4a6'.
+02/24/2025 08:10:23 Central European Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer read: Content-Length: 193
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"9.0.1"}}]}
+02/24/2025 08:10:23 Central European Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:10:23 Central European Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-GB","clientUICulture":"en-GB"}]}
+02/24/2025 08:10:23 Central European Standard Time : Information : Microsoft.VisualStudio.LaunchConfigurationService-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"045ba954-b469-4e5e-9f3c-d79efc1b78ec","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/96e34a29897e4b5dbc64139bdea4021d"}}
+02/24/2025 08:10:39 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 389
+
+{"jsonrpc":"2.0","id":15,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/e06302f2e0"},"ClientCredentials":{},"ClientCulture":"en-DE","ClientUICulture":"en-DE"}]}
+02/24/2025 08:10:39 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":15,"result":{"RequestId":"a3cc574f-7b3a-4a6b-b977-a1a22c14f4e2","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/de6f8929eb","IsEmpty":false}}
+02/24/2025 08:10:39 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/e06302f2e0'.
+02/24/2025 08:10:39 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.13"}}]}
+02/24/2025 08:10:39 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:10:39 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-DE","clientUICulture":"en-DE"}]}
+02/24/2025 08:10:39 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"841881a8-baaa-48b5-9fcf-34470a265608","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/74ffbea7318744239a5479cf992cddcd"}}
+02/24/2025 08:10:39 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2-RemoteServiceBrokerServer read: Content-Length: 274
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"name":"Microsoft.VisualStudio.Debugger.HotReloadOptionService","version":"0.1"},{"clientCulture":"en-DE","clientUICulture":"en-DE"}],"traceparent":"00-b7dc00cd10e8ee49bcafcd0125441924-f069b30297be6048-00"}
+02/24/2025 08:10:39 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":4,"result":{"requestId":"bec00785-8f19-4506-9172-0e11f2a7ddac","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/2cdabb706f794f1dab76027bb7ad04c8"}}
+02/24/2025 08:10:39 Central European Standard Time : Information : VsHubClient-hubController write: Content-Length: 389
+
+{"jsonrpc":"2.0","id":16,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/568d0becd1"},"ClientCredentials":{},"ClientCulture":"en-DE","ClientUICulture":"en-DE"}]}
+02/24/2025 08:10:39 Central European Standard Time : Information : VsHubClient-hubController read: Content-Length: 177
+
+{"jsonrpc":"2.0","id":16,"result":{"RequestId":"ed4548c8-1579-413c-a7cb-4a4f327d6f82","PipeName":"/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/2966341ace","IsEmpty":false}}
+02/24/2025 08:10:39 Central European Standard Time : Information : Disposing ServiceBroker server '/Users/fayzullotukhtasinov/.ServiceHub/3c2e210934/568d0becd1'.
+02/24/2025 08:10:39 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2-RemoteServiceBrokerServer read: Content-Length: 194
+
+{"jsonrpc":"2.0","id":2,"method":"handshake","params":[{"supportedConnections":"IpcPipe","localServiceHost":{"operatingSystem":2,"processArchitecture":3,"runtime":2,"runtimeVersion":"8.0.13"}}]}
+02/24/2025 08:10:39 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2-RemoteServiceBrokerServer write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":2,"result":null}
+02/24/2025 08:10:39 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2-RemoteServiceBrokerServer read: Content-Length: 183
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"name":"Microsoft.ServiceHub.Framework.AuthorizationService"},{"clientCulture":"en-DE","clientUICulture":"en-DE"}]}
+02/24/2025 08:10:39 Central European Standard Time : Information : Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2-RemoteServiceBrokerServer write: Content-Length: 181
+
+{"jsonrpc":"2.0","id":3,"result":{"requestId":"f08b3401-d33e-4530-84de-a1c89a16218c","pipeName":"/var/folders/3y/t39r_n9s1rd0d6n495_b53380000gn/T/b603f86e2901442b880de7b05cb74564"}}
+02/24/2025 09:12:59 Central European Standard Time : Information : VsHubClient-hubController JSON RPC has been disposed
+02/24/2025 09:12:59 Central European Standard Time : Information : VsHubClient-hubController read: end of stream
+02/24/2025 09:12:59 Central European Standard Time : Information : Microsoft.VisualStudio.TestWindow.VSCode.Service-RemoteServiceBrokerServer read: end of stream
+02/24/2025 09:12:59 Central European Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService-RemoteServiceBrokerServer read: end of stream
