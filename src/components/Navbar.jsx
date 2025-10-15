@@ -3,11 +3,15 @@ import { useCurrency } from "../context/CurrencyContext";
 import { useEffect, useState } from "react";
 import { Sun, Moon } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { auth } from "../firebase";
+import { signOut } from "firebase/auth";
 
 export default function Navbar() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { currency, setCurrency } = useCurrency();
   const [theme, setTheme] = useState(() => (typeof window !== 'undefined' ? (localStorage.getItem('theme') || 'light') : 'light'));
+  const [user] = useAuthState(auth);
 
   useEffect(() => {
     if (theme === 'dark') {
@@ -17,6 +21,10 @@ export default function Navbar() {
     }
     try { localStorage.setItem('theme', theme); } catch {}
   }, [theme]);
+
+  useEffect(() => {
+    document.title = t('welcome', { defaultValue: 'Discover the Excitement Ahead' });
+  }, [t]);
 
   const onLangChange = (val) => {
     i18n.changeLanguage(val);
@@ -62,19 +70,40 @@ export default function Navbar() {
           {theme === 'dark' ? <Sun className="w-4 h-4 text-yellow-400" /> : <Moon className="w-4 h-4 text-gray-700" />}
         </button>
 
-        <Link
-          to="/login"
-          className="ml-2 px-3 py-2 text-sm rounded border border-yellow-500 text-yellow-600 hover:bg-yellow-50 dark:border-yellow-600 dark:text-yellow-400"
-        >
-          Login
-        </Link>
-        <Link
-          to="/register"
-          className="px-3 py-2 text-sm rounded bg-yellow-500 text-white hover:bg-yellow-600"
-        >
-          Register
-        </Link>
+        {user ? (
+          <div className="flex items-center gap-3 ml-2">
+            <span className="text-sm dark:text-white">{user.email}</span>
+            <button
+              onClick={() => signOut(auth)}
+              className="px-3 py-2 text-sm rounded bg-yellow-500 text-white hover:bg-yellow-600"
+            >
+              {t("logout", { defaultValue: "Logout" })}
+            </button>
+            <Link
+              to="/dashboard"
+              className="px-3 py-2 text-sm rounded border border-yellow-500 text-yellow-600 hover:bg-yellow-50 dark:border-yellow-600 dark:text-yellow-400"
+            >
+              {t("dashboard", { defaultValue: "Dashboard" })}
+            </Link>
+          </div>
+        ) : (
+          <>
+            <Link
+              to="/login"
+              className="ml-2 px-3 py-2 text-sm rounded border border-yellow-500 text-yellow-600 hover:bg-yellow-50 dark:border-yellow-600 dark:text-yellow-400"
+            >
+              {t("login", { defaultValue: "Login" })}
+            </Link>
+            <Link
+              to="/register"
+              className="px-3 py-2 text-sm rounded bg-yellow-500 text-white hover:bg-yellow-600"
+            >
+              {t("register", { defaultValue: "Register" })}
+            </Link>
+          </>
+        )}
       </div>
     </nav>
   );
 }
+

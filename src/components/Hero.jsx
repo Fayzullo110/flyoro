@@ -8,7 +8,7 @@ export default function Hero() {
     <section
       className="relative bg-cover bg-center min-h-[80vh] flex flex-col justify-center items-center text-center px-4"
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/images/Travel.png)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/Travel.jpg)`,
       }}
     >
       <div className="bg-black/30 absolute inset-0" />
