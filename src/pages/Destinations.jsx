@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export default function Destinations() {
   const { i18n, t } = useTranslation();
@@ -63,16 +64,18 @@ export default function Destinations() {
         {filtered.map((dest) => {
           const convertedPrice = dest.priceUSD * (rates[currency] || 1);
           return (
-            <div key={dest.id} className="shadow-lg rounded-2xl overflow-hidden bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
-              <img src={dest.image} alt={dest.name[i18n.language] || dest.name.en} className="h-56 w-full object-cover" />
-              <div className="p-4">
-                <h2 className="font-bold text-lg text-gray-900 dark:text-white">{dest.name[i18n.language] || dest.name.en}</h2>
-                <p className="text-yellow-600 font-semibold mt-2">
-                  {convertedPrice.toFixed(0)} {currency}
-                </p>
-                <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">{dest.region}</p>
+            <Link key={dest.id} to={`/destinations/${dest.id}`} className="transform transition hover:scale-[1.02]">
+              <div className="shadow-lg rounded-2xl overflow-hidden bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+                <img src={dest.image} alt={dest.name[i18n.language] || dest.name.en} className="h-56 w-full object-cover" />
+                <div className="p-4">
+                  <h2 className="font-bold text-lg text-gray-900 dark:text-white">{dest.name[i18n.language] || dest.name.en}</h2>
+                  <p className="text-yellow-600 font-semibold mt-2">
+                    {convertedPrice.toFixed(0)} {currency}
+                  </p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">{dest.region}</p>
+                </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>

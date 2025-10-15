@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import PrivateRoute from "./components/PrivateRoute";
 import Dashboard from "./pages/Dashboard";
 import Destinations from "./pages/Destinations";
+import DestinationDetail from "./pages/DestinationDetail";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/destinations" element={<Destinations />} />
+        <Route path="/destinations/:id" element={<DestinationDetail />} />
         <Route
           path="/dashboard"
           element={
