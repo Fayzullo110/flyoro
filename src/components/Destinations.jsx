@@ -1,15 +1,17 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useCurrency } from "../context/CurrencyContext";
+import { useTranslation } from "react-i18next";
 
 export default function Destinations() {
   const [destinations, setDestinations] = useState([]);
   const [loading, setLoading] = useState(true);
   const { currency, convert } = useCurrency();
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     let mounted = true;
-    fetch("/api/destinations.json")
+    fetch("/data/destinations.json")
       .then((res) => res.json())
       .then((data) => {
         if (mounted) setDestinations(data || []);
@@ -23,7 +25,7 @@ export default function Destinations() {
 
   return (
     <section className="py-16 bg-gray-50 dark:bg-gray-950 text-center">
-      <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">Your Gateway to Adventure</h2>
+      <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">{t('gateway', { defaultValue: 'Your Gateway to Adventure' })}</h2>
 
       {loading ? (
         <div className="flex justify-center items-center h-40">
@@ -44,12 +46,12 @@ export default function Destinations() {
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.4 }}
             >
-              <img src={d.image} alt={d.name} className="w-full h-56 object-cover" />
+              <img src={d.image} alt={(d.name?.[i18n.language] || d.name?.en || d.name)} className="w-full h-56 object-cover" />
               <div className="p-4 text-left">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{d.name}</h3>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{d.name?.[i18n.language] || d.name?.en || d.name}</h3>
                 {typeof d.priceUSD === 'number' && (
                   <p className="mt-1 text-gray-700 dark:text-gray-300 text-sm">
-                    From <span className="font-semibold">{convert(d.priceUSD)} {currency}</span>
+                    {t('from', { defaultValue: 'From' })} <span className="font-semibold">{convert(d.priceUSD)} {currency}</span>
                   </p>
                 )}
               </div>
@@ -60,3 +62,4 @@ export default function Destinations() {
     </section>
   );
 }
+
