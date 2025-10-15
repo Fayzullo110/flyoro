@@ -33,7 +33,7 @@ export default function Navbar() {
 
   return (
     <nav className="flex justify-between items-center px-6 py-4 bg-white dark:bg-gray-900 shadow-md">
-      <h1 className="text-2xl font-bold text-yellow-500">Flyora</h1>
+      <Link to="/" className="text-2xl font-bold text-yellow-500">Flyora</Link>
 
       <div className="flex gap-3 items-center">
         <select

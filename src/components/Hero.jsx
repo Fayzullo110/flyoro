@@ -28,11 +28,11 @@ export default function Hero() {
           <input
             type="text"
             placeholder={t("search", { defaultValue: "Search destination" })}
-            className="border border-gray-200 rounded-lg p-2 w-full sm:w-1/3"
+            className="border border-gray-200 rounded-lg p-2 w-full sm:w-1/3 text-gray-900"
           />
           <input
             type="date"
-            className="border border-gray-200 rounded-lg p-2 w-full sm:w-1/4"
+            className="border border-gray-200 rounded-lg p-2 w-full sm:w-1/4 text-gray-900"
           />
           <button className="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-2 rounded-lg flex items-center gap-2">
             <Search className="w-4 h-4" /> {t("search", { defaultValue: "Search" })}
