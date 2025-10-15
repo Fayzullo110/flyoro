@@ -6,5 +6,8 @@
   "dashboard": "Dashboard",
   "language": "Language",
   "currency": "Currency",
-  "heroText": "Your next great adventure starts here"
+  "heroText": "Your next great adventure starts here",
+  "search": "Search destination",
+  "allRegions": "All Regions",
+  "destinations": "Destinations"
 }

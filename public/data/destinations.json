@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": { "en": "Bali, Indonesia", "de": "Bali, Indonesien", "ru": "Бали, Индонезия", "uz": "Bali, Indoneziya", "kz": "Бали, Индонезия", "tr": "Bali, Endonezya" },
+    "priceUSD": 850,
+    "region": "Asia",
+    "image": "/images/bali.jpg"
+  },
+  {
+    "id": 2,
+    "name": { "en": "Santorini, Greece", "de": "Santorin, Griechenland", "ru": "Санторини, Греция", "uz": "Santorini, Gretsiya", "kz": "Санторини, Грекия", "tr": "Santorini, Yunanistan" },
+    "priceUSD": 920,
+    "region": "Europe",
+    "image": "/images/santorini.jpg"
+  },
+  {
+    "id": 3,
+    "name": { "en": "Cappadocia, Turkey", "de": "Kappadokien, Türkei", "ru": "Каппадокия, Турция", "uz": "Kappadokiya, Turkiya", "kz": "Каппадокия, Түркия", "tr": "Kapadokya, Türkiye" },
+    "priceUSD": 780,
+    "region": "Asia",
+    "image": "/images/cappadocia.jpg"
+  },
+  {
+    "id": 4,
+    "name": { "en": "Almaty, Kazakhstan", "de": "Almaty, Kasachstan", "ru": "Алматы, Казахстан", "uz": "Olmaota, Qozogʻiston", "kz": "Алматы, Қазақстан", "tr": "Almatı, Kazakistan" },
+    "priceUSD": 540,
+    "region": "Asia",
+    "image": "/images/almaty.jpg"
+  },
+  {
+    "id": 5,
+    "name": { "en": "Tashkent, Uzbekistan", "de": "Taschkent, Usbekistan", "ru": "Ташкент, Узбекистан", "uz": "Toshkent, Oʻzbekiston", "kz": "Ташкент, Өзбекстан", "tr": "Taşkent, Özbekistan" },
+    "priceUSD": 420,
+    "region": "Asia",
+    "image": "/images/tashkent.jpg"
+  }
+]

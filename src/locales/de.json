@@ -6,5 +6,8 @@
   "dashboard": "Dashboard",
   "language": "Sprache",
   "currency": "Währung",
-  "heroText": "Dein nächstes großes Abenteuer beginnt hier"
+  "heroText": "Dein nächstes großes Abenteuer beginnt hier",
+  "search": "Reiseziel suchen",
+  "allRegions": "Alle Regionen",
+  "destinations": "Reiseziele"
 }

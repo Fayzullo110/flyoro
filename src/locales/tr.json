@@ -6,5 +6,8 @@
   "dashboard": "Kontrol Paneli",
   "language": "Dil",
   "currency": "Para Birimi",
-  "heroText": "Bir sonraki maceran burada başlıyor"
+  "heroText": "Bir sonraki maceran burada başlıyor",
+  "search": "Rota ara",
+  "allRegions": "Tüm Bölgeler",
+  "destinations": "Rotalar"
 }

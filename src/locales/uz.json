@@ -6,5 +6,8 @@
   "dashboard": "Boshqaruv paneli",
   "language": "Til",
   "currency": "Valyuta",
-  "heroText": "Keyingi sayohatingiz shu yerdan boshlanadi"
+  "heroText": "Keyingi sayohatingiz shu yerdan boshlanadi",
+  "search": "Manzil qidirish",
+  "allRegions": "Barcha mintaqalar",
+  "destinations": "Yo'nalishlar"
 }

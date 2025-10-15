@@ -70,6 +70,13 @@ export default function Navbar() {
           {theme === 'dark' ? <Sun className="w-4 h-4 text-yellow-400" /> : <Moon className="w-4 h-4 text-gray-700" />}
         </button>
 
+        <Link
+          to="/destinations"
+          className="ml-2 px-3 py-2 text-sm rounded border border-yellow-500 text-yellow-600 hover:bg-yellow-50 dark:border-yellow-600 dark:text-yellow-400"
+        >
+          {t("destinations", { defaultValue: "Destinations" })}
+        </Link>
+
         {user ? (
           <div className="flex items-center gap-3 ml-2">
             <span className="text-sm dark:text-white">{user.email}</span>
