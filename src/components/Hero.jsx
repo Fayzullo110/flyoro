@@ -49,23 +49,25 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/60" />
 
       <motion.div
-        className="relative z-10 text-white max-w-5xl mx-auto"
+        className="relative z-10 text-white w-full"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <h1 className="text-5xl font-bold leading-tight drop-shadow-lg">
+        <div className="max-w-5xl mx-auto">
+          <h1 className="text-5xl font-bold leading-tight drop-shadow-lg">
           {t("welcome", { defaultValue: "Discover the Excitement Ahead" })}
-        </h1>
-        <p className="mt-4 text-lg text-gray-200">
+          </h1>
+          <p className="mt-4 text-lg text-gray-200">
           {t("heroSubtext", {
             defaultValue:
               "Find your perfect getaway. Explore destinations around the world.",
           })}
-        </p>
+          </p>
+        </div>
 
         {/* Search Card */}
-        <div className="mt-10 w-full max-w-6xl mx-auto">
+        <div className="mt-10 w-full max-w-screen-2xl mx-auto">
           <div className="backdrop-blur-xl bg-white/95 dark:bg-gray-900/80 shadow-2xl rounded-3xl p-8 border border-white/10">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-4">
               
@@ -197,7 +199,7 @@ export default function Hero() {
                 <div className="flex items-end col-span-2">
                   <button
                     onClick={handleSearch}
-                    className="w-full h-14 rounded-xl bg-blue-600 hover:bg-blue-700 focus:ring-2 focus:ring-blue-400 text-white text-base font-semibold shadow-md transition"
+                    className="w-full h-14 rounded-xl bg-blue-600 hover:bg-blue-700 focus:ring-10 focus:ring-blue-400 text-white text-base font-semibold shadow-md transition"
                   >
                     <Search className="inline w-5 h-5 mr-2" />
                     {t("searchFlights", { defaultValue: "Search Flights" })}
